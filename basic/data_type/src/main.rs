@@ -57,4 +57,32 @@ fn main() {
     println!("z : {z}");
     println!("heart_eyed_cat : {heart_eyed_cat}");
 
+    println!("＝＝元組型別測試範例＝＝：");
+    let tup1: (i32, f64, u8) = (500, 6.4, 1);
+    let tup2 = (400, 7.5, 2);
+    let (x, y, k) = tup2;
+
+
+    println!("tup1 is : {:?}", tup1);
+    println!("first element in tup1 is : {:?}", tup1.0);
+    println!("y : {y}");
+
+    println!("＝＝陣列型別測試範例＝＝：");
+    let array_1 = [1, 2, 3, 4, 5];
+    let array_2: [i32; 3] = [21, 56, 17];
+    let array_3 = [7; 4];
+    let months = ["一月", "二月", "三月", 
+                  "四月", "五月", "六月", 
+                  "七月", "八月", "九月", 
+                  "十月", "十一月", "十二月"];
+    let array_1_first = array_1[0];
+
+    
+    println!("array_1 : {:?}", array_1);
+    println!("array_2 : {:?}", array_2);
+    println!("array_3 : {:?}", array_3);
+    println!("months : {:?}", months);
+    println!("length of months array : {}", months.len());
+    println!("array_1 first element is : {array_1_first}");
+
 }
