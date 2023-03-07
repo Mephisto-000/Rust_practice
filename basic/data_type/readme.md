@@ -1,6 +1,6 @@
 # 資料型別
 
-[參考網址](https://rust-lang.tw/book-tw/ch03-02-data-types.html)
+[參考網址](https://rust-lang.tw/book-tw/ch03-02-data-types.html)  
 Rust 是一門**靜態型別**語言，這代表它必須在編譯時知道所有變數的型別。
 
 
