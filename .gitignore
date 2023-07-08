@@ -10,3 +10,7 @@
 /application/book_ex2/target/
 /application/book_ex3/target/
 /application/book_ex4/target/
+
+
+# Project Euler
+/project_euler/id_1-100/id_1/target/
